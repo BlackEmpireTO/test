@@ -12,11 +12,6 @@ pipeline {
         stage ('test') {
             steps {
                 sh("mvn install")
-            }
-        // stage ('test') {
-        //     steps {
-        //         sh "echo 'K'"
-        //     }
-        // }
+        }
     }
 }
